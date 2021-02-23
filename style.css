@@ -1,0 +1,40 @@
+*{
+    font-family: 'Itim', cursive;
+}
+.carousel-item{
+    height: 500px;
+}
+
+.carousel-image-1{
+    background-image: url('image/pic1.jpg');
+    background-size: cover;
+}
+
+.carousel-image-2{
+    background-image: url('image/pic2.jpg');
+    background-size: cover;
+}
+
+.carousel-image-3{
+    background-image: url('image/pic3.jpg');
+    background-size: cover;
+}
+
+#about{
+    min-height: 200px;
+    position: relative;
+    background-image: url("image/iceland-5586225_1280.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color:#fff;
+    background-attachment: fixed;
+}
+.dark-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+}
